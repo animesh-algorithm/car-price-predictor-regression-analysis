@@ -36,6 +36,7 @@
             <p class='lead'>Get Right Price for your car</p>
         </div>
         <div class="card mt-2">
+            <h3>{{ output_text }}</h3>
             <form action="{{ url_for('predict') }}" method="POST" class='form'>
                 <div class="form-group">
                     <input type="text" placeholder="Year In Which you bought the car?" class="form-control" name="year" required="required">
@@ -61,8 +62,6 @@
                 </div>
                 <button type="submit" class='btn btn-success form-control mb-5'>Calculate the selling price.</button>
             </form>
-
-            <h3>{{ output_text }}</h3>
         </div>
         <div class="section" style="height: 100vh;">
 
