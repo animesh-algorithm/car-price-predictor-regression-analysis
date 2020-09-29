@@ -6,6 +6,8 @@
 * [Motivation](#motivation)
 * [About the Data](#data)
 * [Modeling](#model) 
+  * [The Math Behind the Metrics Used](#metrics)
+  * [Why I used Polynomial Features?](#poly)
 * [Credits](#credits)
 
 ## Demo <a id='demo'></a>
@@ -23,15 +25,16 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 ## About the Data <a id='data'></a>
 
 ## Modeling <a id='model'></a>
-* ### **The Math behind the metrices used**
+* ### **The Math behind the metrices used**<a id='metrics'></a>
   * #### R2 Score
   <img src='https://miro.medium.com/max/2812/1*_HbrAW-tMRBli6ASD5Bttw.png' width="300">
  
   * #### Mean Squared Error
   <img src='https://cdn-media-1.freecodecamp.org/images/hmZydSW9YegiMVPWq2JBpOpai3CejzQpGkNG' width='300'>
-  
-* Earlier for almost all the models, **r2_score** is close to 0.73
-* But after increasing the no. of independent features to 45 using **sklearn.preprocessing.PolynomialFeatures** of **degree 2** the r2_score increases to 0.94 i.e
+
+* ### **Why I used Polynomial Features?**<a id='poly'></a>
+  * Earlier for almost all the models, **r2_score** is close to 0.73
+  * But after increasing the no. of independent features to 45 using **sklearn.preprocessing.PolynomialFeatures** of **degree 2** the r2_score increases to 0.94 i.e
 **Our Model is fitting better**, which is evident from the graphs below, which is basically plotted to show the **variance** between the actual and predicted value of Selling Price
 
 <br>
