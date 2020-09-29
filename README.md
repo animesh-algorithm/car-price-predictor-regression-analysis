@@ -57,7 +57,8 @@ My motivation for this project came from the **#66daysofdata** initiative starte
    * My Data have some categorical features like **Fuel Type, Seller Type and Transmission**, which doesn't make sense to any Machine Learning or Deep Learning Models. Hence they needed to be converted into numerical data and one way to do that is through **One Hot Encoding**, which I did using **pd.get_dummies** function.
  
  * ### **Why I did feature scaling?**<a id='fs'></a>
- 
+   * All of my features have different units, ex. kilometers, no. of years, rupees etc. So I scaled all of my features.
+   * I tried both **MinMaxScaler()** and **StandardScaler()**, the latter one worked better.
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
