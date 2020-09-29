@@ -8,8 +8,8 @@
 * [Feature Engineering And Modeling](#model) 
   * [The Math Behind the Metrics Used](#metrics)
   * [Why I used Polynomial Features?](#poly)
-  * [Why I converted my data into log normal distribution?](#log)
-  * [Why I perform One Hot Encoding on my data?](#ohe)
+  * [Why I converted the numerical data into log normal distribution?](#log)
+  * [Why I perform One Hot Encoding on the data?](#ohe)
   * [Why I did feature scaling?](#fs)
   * [Training With Linear Models?](#linear_models)
   * [How I found the best model and their best parameters using sklearn Pipelines and GridSearchCV?](#best_model)
@@ -52,6 +52,12 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 
                    Before Applying Log Normal Dist.               |            After Applying Log Normal Dist.
   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='450' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='450' class='img'>
+
+ * ### **Why I perform One Hot Encoding on the data?**<a id='ohe'></a>
+   * My Data have some categorical features like **Fuel Type, Seller Type and Transmission**, which doesn't make sense to any Machine Learning or Deep Learning Models. Hence they needed to be converted into numerical data and one way to do that is through **One Hot Encoding**, which I did using **pd.get_dummies** function.
+ 
+ * ### **Why I did feature scaling?**<a id='fs'></a>
+ 
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
