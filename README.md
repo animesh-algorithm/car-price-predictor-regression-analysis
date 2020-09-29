@@ -79,7 +79,8 @@ My motivation for this project came from the **#66daysofdata** initiative starte
        * Mean Absolute Error -  0.7422001552130918
        * Mean Squared Error -  1.2843423154102787
    * And the following graph for the **variance in Predicted and Actual Value of Selling Price**
-   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index7.png' width='400' class='img' style='display:inline'> 
+    
+       <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index7.png' class='img' style='display:inline'> 
 
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
