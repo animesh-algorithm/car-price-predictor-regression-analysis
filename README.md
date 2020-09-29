@@ -11,7 +11,7 @@
   * [Why I converted the numerical data into log normal distribution?](#log)
   * [Why I perform One Hot Encoding on the data?](#ohe)
   * [Why I did feature scaling?](#fs)
-  * [Training With Linear Models?](#linear_models)
+  * [Training With Linear Models.](#linear_models)
   * [How I found the best model and their best parameters using sklearn Pipelines and GridSearchCV?](#best_model)
 * [Credits](#credits)
 
@@ -59,6 +59,12 @@ My motivation for this project came from the **#66daysofdata** initiative starte
  * ### **Why I did feature scaling?**<a id='fs'></a>
    * All of my features have different units, ex. kilometers, no. of years, rupees etc. So I scaled all of my features.
    * I tried both **MinMaxScaler()** and **StandardScaler()**, the latter one worked better.
+
+ * ### **Training with linear models**<a id='fs'></a>
+   * I trained my dataset with various linear models for ex. **Linear Regression, Lasso Regression, Ridge Regression and Bayesian Ridge Regression**.
+   * To my surprise all models performed same way with nearly same value of **r2_score, Mean Absolute Error and Mean Squared Error**.
+   
+   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index3.png' width='300' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index4.png' width='300' class='img'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index5.png' width='300' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index6.png' width='300' class='img'>
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
