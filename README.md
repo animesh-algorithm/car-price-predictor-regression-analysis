@@ -64,7 +64,11 @@ My motivation for this project came from the **#66daysofdata** initiative starte
    * I trained my dataset with various linear models for ex. **Linear Regression, Lasso Regression, Ridge Regression and Bayesian Ridge Regression**.
    * To my surprise all models performed same way with nearly same value of **r2_score, Mean Absolute Error and Mean Squared Error**.
    
-   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index3.png' width='300' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index4.png' width='300' class='img'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index5.png' width='300' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index6.png' width='300' class='img'>
+                      Linear Regression               |            Lasso Regression
+   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index3.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index4.png' width='400' class='img'>   
+   
+                      RIdge Regression                |             Bayesian Ridge Regression
+   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index5.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index6.png' width='400' class='img'>
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
