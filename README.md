@@ -23,7 +23,13 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 ## About the Data <a id='data'></a>
 
 ## Modeling <a id='model'></a>
-For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
+* **The Math behind the metrices used**
+### R2 Score
+![r2_score](https://miro.medium.com/max/2812/1*_HbrAW-tMRBli6ASD5Bttw.png)
+
+### Mean Squared Error
+![MSE](https://cdn-media-1.freecodecamp.org/images/hmZydSW9YegiMVPWq2JBpOpai3CejzQpGkNG)
+* For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
 ## Credits <a id='credits'></a>
 Special thanks to 
