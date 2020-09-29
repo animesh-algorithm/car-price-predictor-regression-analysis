@@ -22,7 +22,7 @@ def predict():
         # Taking the input from user
         year = int(request.form['year'])
         kms_driven = float(request.form['kms_driven'])
-        present_price = int(request.form['present_price'])
+        present_price = float(request.form['present_price'])
         owners = request.form['owners']
         fuel_type = request.form['fuel_type']
         seller_type = request.form['seller_type']
