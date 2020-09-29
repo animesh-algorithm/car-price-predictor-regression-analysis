@@ -1,1 +1,1 @@
-# Car-Price-Predictor---Regression-Analysis
+# Car Price Predictor App - Regression Analysis
