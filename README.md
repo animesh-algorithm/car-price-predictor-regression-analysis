@@ -24,10 +24,10 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 
 ## Modeling <a id='model'></a>
 * ### **The Math behind the metrices used**
-#### R2 Score
+  * #### R2 Score
   <img src='https://miro.medium.com/max/2812/1*_HbrAW-tMRBli6ASD5Bttw.png' width="300">
  
-#### Mean Squared Error
+  * #### Mean Squared Error
   <img src='https://cdn-media-1.freecodecamp.org/images/hmZydSW9YegiMVPWq2JBpOpai3CejzQpGkNG' width='300'>
   
 * Earlier for almost all the models, **r2_score** is close to 0.73
