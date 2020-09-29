@@ -29,6 +29,7 @@ My motivation for this project came from the **#66daysofdata** initiative starte
  
 ### Mean Squared Error
   <img src='https://cdn-media-1.freecodecamp.org/images/hmZydSW9YegiMVPWq2JBpOpai3CejzQpGkNG' width='300'>
+  
 * Earlier for almost all the models, **r2_score** is close to 0.73
 * But after increasing the no. of independent features to 45 using **sklearn.preprocessing.PolynomialFeatures** of **degree 2** the r2_score increases to 0.94 i.e
 Our Model is fit better.
