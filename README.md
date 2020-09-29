@@ -45,13 +45,13 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 
    
                    Before Applying Polynomial Features            |            After Applying Polynomial Features
-  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450' class='img' style='display:inline'>     <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='450' class='img'>
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='400' class='img' style='display:inline'>     <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='400' class='img'>
   
  * ### **Why I converted my data into log normal distribution?**<a id='log'></a>
    * One of the basic assumption when you are training a **Linear Regression** model or compiling an **Artificial Neural Network** is that your data is **normally distributed**. I plotted the graph, I got some bell curve but I was not sure whether it is perfectly normally distributed. So I performed the **log normal distribution** for all my numerical data.
 
                    Before Applying Log Normal Dist.               |            After Applying Log Normal Dist.
-  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='450' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='450' class='img'>
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='400' class='img'>
 
  * ### **Why I perform One Hot Encoding on the data?**<a id='ohe'></a>
    * My Data have some categorical features like **Fuel Type, Seller Type and Transmission**, which doesn't make sense to any Machine Learning or Deep Learning Models. Hence they needed to be converted into numerical data and one way to do that is through **One Hot Encoding**, which I did using **pd.get_dummies** function.
