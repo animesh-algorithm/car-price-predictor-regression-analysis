@@ -50,6 +50,9 @@ My motivation for this project came from the **#66daysofdata** initiative starte
  * ### **Why I converted my data into log normal distribution?**<a id='log'></a>
    * One of the basic assumption when you are training a **Linear Regression** model or compiling an **Artificial Neural Network** is that your data is **normally distributed**. I plotted the graph, I got some bell curve but I was not sure whether it is perfectly normally distributed. So I performed the **log normal distribution** for all my numerical data.
 
+                   Before Applying Log Normal Dist.               |            After Applying Log Normal Dist.
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='450' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='450' class='img'>
+
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
 ## Credits <a id='credits'></a>
