@@ -4,6 +4,8 @@
 * [Demo](#demo)
 * [Abstract](#abs)
 * [Motivation](#motivation)
+* [About the Data](#data)
+* [Modeling](#model) 
 * [Credits](#credits)
 
 ## Demo <a id='demo'></a>
@@ -18,9 +20,14 @@ The final Output for the project can be viewed [here](https://car-price-predicto
 ## Motivation <a id='motivation'></a>
 My motivation for this project came from the **#66daysofdata** initiative started by **Ken Jee** from Youtube. If I haven't partipicated in this initiative, I may not be as accountable and consistent as I am in learning Data Science today.
 
+## About the Data <a id='data'></a>
+
+## Modeling <a id='model'></a>
+For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
+
 ## Credits <a id='credits'></a>
 Special thanks to 
 * **cardekho.com** for providing the dataset
 * **Google Colaboratory** for providing the computational power to build and train the models.
 * **Heroku** for making the deployment of this project possible.
-* **#66daysofdata** community created by **KenJee** that is keeping me accountable in Data Science Journey.
+* **#66daysofdata** community created by **KenJee** that is keeping me accountable in my Data Science Journey.
