@@ -12,7 +12,7 @@
   * [Why I perform One Hot Encoding on the data?](#ohe)
   * [Why I did feature scaling?](#fs)
   * [Training With Linear Models.](#linear_models)
-  * [How I found the best model and their best parameters using sklearn Pipelines and GridSearchCV?](#best_model)
+  * [How I found the best model and their best hyperparameters using sklearn Pipelines and GridSearchCV?](#best_model)
 * [Credits](#credits)
 
 ## Demo <a id='demo'></a>
@@ -60,15 +60,27 @@ My motivation for this project came from the **#66daysofdata** initiative starte
    * All of my features have different units, ex. kilometers, no. of years, rupees etc. So I scaled all of my features.
    * I tried both **MinMaxScaler()** and **StandardScaler()**, the latter one worked better.
 
- * ### **Training with linear models**<a id='fs'></a>
+ * ### **Training with linear models**<a id='linear_models'></a>
    * I trained my dataset with various linear models for ex. **Linear Regression, Lasso Regression, Ridge Regression and Bayesian Ridge Regression**.
    * To my surprise all models performed same way with nearly same value of **r2_score, Mean Absolute Error and Mean Squared Error**.
    
                       Linear Regression               |            Lasso Regression
    <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index3.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index4.png' width='400' class='img'>   
    
-                      RIdge Regression                |             Bayesian Ridge Regression
+                      Ridge Regression                |             Bayesian Ridge Regression
    <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index5.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index6.png' width='400' class='img'>
+
+ * ### **How I found the best model and their best hyperparameters using sklearn Pipelines and GridSearchCV?**<a id='best_model'></a>
+   * I made use of **sklearn pipelines** to its best. I created multiple pipelines with respect to the model and their hyperparameters. 
+   * Then I combined the power of **sklearn pipelines** and **GridSearchCV**, which trained all the models for me, with all the possible hyperparamerter and finally gave the **best model** which in our case happens to be **Lasso(alpha=0.01)**.
+   * I **dumped** that model using **pickle** library and then **loaded** the model into the **Flask** app.
+   * The best model gave the following scores - 
+       * R2 Score  - 0.9442452908334493
+       * Mean Absolute Error -  0.7422001552130918
+       * Mean Squared Error -  1.2843423154102787
+   * And the following graph for the **variance in Predicted and Actual Value of Selling Price**
+   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index7.png' width='400' class='img' style='display:inline'> 
+
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
