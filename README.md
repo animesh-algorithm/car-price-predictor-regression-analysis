@@ -36,7 +36,7 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 
 <br>
 
-            **Before Applying Polynomial Features**                                   **After Applying Polynomial Features** 
+            **Before Applying Polynomial Features**                    **After Applying Polynomial Features** 
   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450' class='img' style='display:inline'>     <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='450' class='img'>
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
