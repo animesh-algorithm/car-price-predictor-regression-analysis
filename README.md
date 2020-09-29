@@ -33,11 +33,8 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 * Earlier for almost all the models, **r2_score** is close to 0.73
 * But after increasing the no. of independent features to 45 using **sklearn.preprocessing.PolynomialFeatures** of **degree 2** the r2_score increases to 0.94 i.e
 **Our Model is fitting better**, which is evident from the graphs below, which is basically plotted to show the **variance** between the actual and predicted value of Selling Price
-  * **Before Applying Polynomial Features**
-  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450'>
-  
-  * **After Applying Polynomial Features**
-  <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='450'>
+  * **Before Applying Polynomial Features**    * **After Applying Polynomial Features** 
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450' class='img' style='display:inline'> <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='450' class='img'>
 
 * For more deep dive into the modelling stuff you can check out the [Ipython Notebook for Feature Engineering and Choosing Best Model](https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/Feature%20Engineering%20and%20Choosing%20Best%20Model.ipynb)
 
