@@ -28,6 +28,50 @@ The final Output for the project can be viewed [here](https://car-price-predicto
 My motivation for this project came from the **#66daysofdata** initiative started by **Ken Jee** from Youtube. If I haven't partipicated in this initiative, I may not be as accountable and consistent as I am in learning Data Science today.
 
 ## About the Data <a id='data'></a>
+Our dataset has **4341 records** and **9 features**(including dependent feature).
+### Brief Description about columns
+<table>
+ <thead>
+  <th>Columns</th>
+  <th>Description</th>
+ </thead>
+ <tr>
+  <td>Name</td>
+  <td>Name of the cars</td>
+ </tr>
+ <tr>
+  <td>Year</td>
+  <td>Year of the car when it was bought</td>
+ </tr>
+ <tr>
+  <td>Selling_Price</td>
+  <td>Price at which the car is being sold</td>
+ </tr>
+ <tr>
+  <td>Kms_Driven</td>
+  <td>Number of Kilometres the car is driven</td>
+ </tr>
+ <tr>
+  <td>Fuel_Type</td>
+  <td>Fuel type of car (petrol / diesel / CNG / LPG / electric)</td>
+ </tr>
+ <tr>
+  <td>Seller_Type</td>
+  <td>Tells if a Seller is Individual or a Dealer</td>
+ </tr>
+ <tr>
+  <td>Transmission</td>
+  <td>Gear transmission of the car (Automatic/Manual)</td>
+ </tr>
+ <tr>
+  <td>Owners</td>
+  <td>Number of previous owners of the car.</td>
+ </tr>
+ <tr>
+  <td>Name</td>
+  <td>Name of the cars</td>
+ </tr>
+</table>
 
 ## Feature Engineering and Modeling <a id='model'></a>
 * ### **The Math behind the metrices used**<a id='metrics'></a>
@@ -44,14 +88,14 @@ My motivation for this project came from the **#66daysofdata** initiative starte
 <br>
 
    
-                   Before Applying Polynomial Features            |            After Applying Polynomial Features
-  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='400' class='img' style='display:inline'>     <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='400' class='img'>
+         Before Applying Polynomial Features            |            After Applying Polynomial Features
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450' class='img' style='display:inline'>     <img src='https://raw.githubusercontent.com/animesharma3/Car-Price-Predictor---Regression-Analysis/master/images/index.png' width='450' class='img'>
   
  * ### **Why I converted my data into log normal distribution?**<a id='log'></a>
    * One of the basic assumption when you are training a **Linear Regression** model or compiling an **Artificial Neural Network** is that your data is **normally distributed**. I plotted the graph, I got some bell curve but I was not sure whether it is perfectly normally distributed. So I performed the **log normal distribution** for all my numerical data.
 
-                   Before Applying Log Normal Dist.               |            After Applying Log Normal Dist.
-  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='400' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='400' class='img'>
+          Before Applying Log Normal Dist.               |            After Applying Log Normal Dist.
+  <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index1.png' width='450' class='img' style='display:inline'>     <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/index2.png' width='450' class='img'>
 
  * ### **Why I perform One Hot Encoding on the data?**<a id='ohe'></a>
    * My Data have some categorical features like **Fuel Type, Seller Type and Transmission**, which doesn't make sense to any Machine Learning or Deep Learning Models. Hence they needed to be converted into numerical data and one way to do that is through **One Hot Encoding**, which I did using **pd.get_dummies** function.
