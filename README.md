@@ -32,7 +32,7 @@ My motivation for this project came from the **#66daysofdata** initiative starte
   
 * Earlier for almost all the models, **r2_score** is close to 0.73
 * But after increasing the no. of independent features to 45 using **sklearn.preprocessing.PolynomialFeatures** of **degree 2** the r2_score increases to 0.94 i.e
-Our Model is fitting better, which is evident from the graphs below.
+**Our Model is fitting better**, which is evident from the graphs below, which is basically plotted to show the **variance** between the actual and predicted value of Selling Price
   * **Before Applying Polynomial Features**
   <img src='https://github.com/animesharma3/Car-Price-Predictor---Regression-Analysis/blob/master/images/download.png' width='450'>
   
